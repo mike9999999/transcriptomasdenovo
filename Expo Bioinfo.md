@@ -40,6 +40,6 @@ tres factores determinan el número de replicas requeridas en un experimento de 
 a) variabilidad en las mediciones, las cuales son influenciadas por el ruido tecnico y la variación biológica. mientras la reproducibilidad en RNA-seq es usualmente alta a nivel de secuenciación, otros pasos tales como la extracción y preparacion de bibliotecas son ruidosas y pueden introducir sesgoen los datos que pueden ser minimizados adoptando  buenos procedimientos experimentales.
 b)La variabilidad biológica es particular en cada sistema experimental y dificl de controlas, sin embargo replicas biológicas son necesarias si se quieren hacer inferencias a nivel de población, con tres réplicas como minimo por cada análisis. Para un adecuado análisis estadistico , estimar la varianza entre grupos y niveles de expresión genetica son necesarios.
 c)
-*hola*
+**hola**
 
 Extremos simples o extremos pareados
