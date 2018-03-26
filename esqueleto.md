@@ -39,7 +39,7 @@ Las variantes del método de laboratorio está en función, principalmente, del 
 ##### molida -- no fragmentar tanto cuando estamos buscando genomas completos o estamos haciendo el ensamble de novo.
 ##### limpieza debido a que trabajamos con RNA, qué productos usar?
 ##### congelación hielo seco o nitrógeno -- porque al aumentar la temperatura las RNAsas se activan
-##### medir cantidad de RNA -- qubit ![link manual] (https://tools.thermofisher.com/content/sfs/manuals/qubit_3_fluorometer_man.pdf)
+##### medir cantidad de RNA -- qubit @[link manual] (https://tools.thermofisher.com/content/sfs/manuals/qubit_3_fluorometer_man.pdf)
 ##### plantas
 puedes usar Kit o método trizol
 ##### errores comunes contaminación, degradación, poca cantidad de RNA y muestras sucias
