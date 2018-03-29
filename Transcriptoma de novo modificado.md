@@ -34,7 +34,7 @@ Es de suma importancia que se limpie el área de trabajo para disminuir la conta
 
 Una vez elegido el protocolo de extracción se debe contemplar que al moler el tejido este se fragmente lo suficiente para mantener lo más completo posible el RNA ya que mientras más información tengamos hacer el ensable resultará de mayor calidad. Este punto es crucial, ya que una buena molienda nos otorgará un mejor rendimiento en la extracción, ya se con kit o con algun otro método.
 
-Debido a que solo el 1-2% es RNAm se recomienda usar limpiadores del resto de RNA y posteriormente hacer la medición de cantidad obtenida con el Qubit. Si requieren información detallada sobre el uso del aparato pueden visitar su manual @[link manual](https://tools.thermofisher.com/content/sfs/manuals/qubit_3_fluorometer_man.pdf)
+Debido a que solo el 1-2% es RNAm se recomienda usar limpiadores del resto de RNA y posteriormente hacer la medición de cantidad obtenida con el Qubit. Si requieren información detallada sobre el uso del aparato pueden visitar su [manual](https://tools.thermofisher.com/content/sfs/manuals/qubit_3_fluorometer_man.pdf)
 
 En cuanto a la cantidad y concentración del ARNm que requiere el RNA-seq, el rango está actualmente entre 5 y 10 μg, con una concentración  alrededor  de  500  ng/μl
 
