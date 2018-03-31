@@ -120,15 +120,22 @@ NOTE: It is recommended to use fully specified paths for sequence files with Tri
 El análisis posterior es la evaluación del ensablado donde se analizan métricas como N50 o exN50.
 
 softwares:
+
 BLAST
+
 rnaQUAST
+
 Transrate
+
 CD-HIT-EST
 
 
 ##PERSPECTIVAS
+
 Disminición en la tasa de errores (Pacbio).
+
 Dsitinguir contaminación.
+
 disminución de costo para un mayor estudio de organismos específicos.
 
 
