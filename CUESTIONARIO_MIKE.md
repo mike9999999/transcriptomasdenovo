@@ -12,20 +12,23 @@ Laboratorio: Muestras con rna de poca calidad debido a la naturaleza del tejido.
 
 
 3.¿El muestreo requiere algún diseño específico? Por ejemplo, si se quiere secuenciar un genoma de novo ¿qué individuo sería ideal?
-
 Si trabajo con trascriptomas, ¿cómo afecta el tejido, la edad, las condiciones, etc. mi muestreo?
+
 El individuo o individuos ideales serian aquellos que representen un una linea genómica más conservada; es decir: que pertenesca a un grupo más ancestral. Lo cual puede generar datos de referencia genómica para estudios futuros com SNP´s o mutaciónes de diferentes tipos.
 El transcriptomá es el conjunto de diferentes tipos funcionales de moléculas de RNA. Generalmente se asocia el RNA con la expreaión genómica por que es una transcripción del DNA en una célula. Ya que la transcripción se modula por diferentes formas asi también el transcriptoma, es decir; el transcriptoma de una célula se puede moduar en lapsos relativamente cortos de tiempo (minutos, horas, días). Por tla motivo el transcriptoma es altamente dinámico y es diferente en cada tipo celular. A sí mismo, el momento celular o momento metabólico va a influir en transcriptoma.
 Dada la dinámica de cambio del transcriptoma, una estratégia de preservación del RNA durante una toma de muestra, es la congelación inmediata de la muestra, para preservar el transcriptoma en dicho momento.
+
 4.Menciona al menos dos softwares principales que se utilicen para realizar la parte medular de los análisis bioinformáticos de este tipo de análisis (e.g. si es ensamblado de novo con qué se ensambla, no con qué se hace el pre-procesamiento) y cuáles son los pros y contras de cada uno.
 Para el ensamblado de transcriptoma de novo sin genoma de referencia existe una diversidad amplia en software. 
 
-Velvet/Oases (2008): Ambos software generan ensablado de novo de transcriptoma a partir de pair-end cortos. También, generan analisis de scplicing, sin embargo para realizar analisis adicionales, requieren de actualizaciones.
+Velvet/Oases (2008): Ambos softwareS generan ensablado de novo de transcriptoma a partir de pair-end cortos. También, generan analisis de scplicing, sin embargo para realizar analisis adicionales, requieren de actualizaciones para análisis particulares.
 
-SPAdes (2012): este software genera ensamblado de novo en una amplia variedad de especies y tamaños de transcriptomas, además puede generar análisis de expresión.
+SPAdes (2012): este software genera ensamblado de novo en una amplia variedad de especies y tamaños de transcriptomas, además puede generar análisis de expresión, los algoritmos pueden demorar más tiempo.
 
 Triniti: este softeare fué liberado en 2013 y los análisis de ensamblado son realizados mediante la utilización de 3 paquetes que se ejecutan de manera independiente. Ichworm, admite los reads del experimento de secuenciación en transcritos. Chrysalis, ensambla los transcritos y genera gráficas Buijin, mientras que Butterfly analiza los gráficos y genera transcritos completos.
-Además triniti brinda  métricas de calidad de ensamblado y ensayos. En particular para transcritptoma exmina con la metrica de “exN50” (top de transcritos que representan el 50% del transcriptoma).
+Además triniti brinda  métricas de calidad de ensamblado y ensayos. En particular para transcritptoma exmina con la métrica de “exN50” (top de transcritos que representan el 50% del transcriptoma).
 
 BinPacker ( 2016): este software contruye transcritos, incorpora información de la covertura y genera análisis de splicing. En específico este sistema profundiza en los análisis de splicing y su ensamblado.
-Nota: Todos lo software anteriores utilizan entre sus herramientas, el algoritmo Bruijn Graph, que consiste en el traslape de reads para contruir transcritos o cadenas.
+
+
+Nota: Todos lo softwares anteriores utilizan entre sus herramientas, el algoritmo Bruijn Graph, que consiste en el traslape de reads para contruir transcritos o cadenas.
